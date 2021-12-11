@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.RightFragment">
+
+    <TextView
+        android:id="@+id/vida3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="17dp"
+        android:text="Nombre"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/vida2"
+        app:layout_constraintEnd_toStartOf="@+id/tv_name"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_pokemon_to_search_for"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/vida2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Tipo"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/vida"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/et_pokemon_to_search_for"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="      Ingrese nombre de Pokemon"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/btn_search"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_absoluteHeight="171dp"
+        tools:layout_conversion_absoluteWidth="0dp" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        app:layout_constraintLeft_toRightOf="@+id/et_pokemon_to_search_for"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_pokemon_to_search_for"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="93dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <TextView
+        android:id="@+id/tv_pokemon_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/cards"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextView
+        android:id="@+id/idpoke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:background="@drawable/cards"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toRightOf="@id/numero"
+        app:layout_constraintTop_toBottomOf="@id/tv_pokemon_info"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/cards"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pokemon_info" />
+
+    <TextView
+        android:id="@+id/tv_tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="332dp"
+        android:background="@drawable/cards"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_hp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+    <TextView
+        android:id="@+id/tv_hp"
+        android:text=""
+        android:background="@drawable/cards"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/vida"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tipo"
+        />
+
+    <TextView
+        android:id="@+id/tv_attack"
+        android:background="@drawable/cards"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text=""
+        app:layout_constraintLeft_toRightOf="@+id/ataque"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hp"
+        />
+
+    <TextView
+        android:id="@+id/tv_special"
+        android:background="@drawable/cards"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/aspecial"
+        app:layout_constraintTop_toBottomOf="@+id/tv_attack"
+        />
+
+    <TextView
+        android:id="@+id/tv_deffense"
+        android:background="@drawable/cards"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/defensa"
+        app:layout_constraintTop_toBottomOf="@+id/tv_special"
+        />
+
+    <TextView
+        android:id="@+id/tv_ds"
+        android:background="@drawable/cards"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text=""
+        app:layout_constraintLeft_toRightOf="@+id/dspecial"
+        app:layout_constraintTop_toBottomOf="@+id/tv_deffense"
+        />
+
+    <TextView
+        android:id="@+id/tv_speed"
+        android:text=""
+        android:background="@drawable/cards"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/velocidad"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ds"
+        />
+
+    <TextView
+        android:id="@+id/tv_weight"
+        android:text=""
+        android:background="@drawable/cards"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/peso"
+        app:layout_constraintTop_toBottomOf="@+id/tv_speed"
+        />
+
+    <TextView
+        android:id="@+id/numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" | "
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/idpoke"
+        app:layout_constraintLeft_toRightOf="@id/tv_name"
+        app:layout_constraintRight_toLeftOf="@+id/idpoke"
+        app:layout_constraintTop_toTopOf="@+id/idpoke"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/vida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_margin="15dp"
+        android:text="Hp: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/tv_hp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_hp"
+        app:layout_constraintRight_toLeftOf="@+id/tv_hp"
+        />
+
+    <TextView
+        android:id="@+id/ataque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Atk: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/tv_attack"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_attack"
+        app:layout_constraintRight_toLeftOf="@+id/tv_attack"
+        />
+
+    <TextView
+        android:id="@+id/aspecial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Atk Especial: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/tv_special"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_special"
+        app:layout_constraintRight_toLeftOf="@+id/tv_special"
+        />
+
+    <TextView
+        android:id="@+id/defensa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Defensa: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/tv_deffense"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_deffense"
+        app:layout_constraintRight_toLeftOf="@+id/tv_deffense"
+        />
+
+    <TextView
+        android:id="@+id/dspecial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Defensa Especial: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/tv_ds"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_ds"
+        app:layout_constraintRight_toLeftOf="@+id/tv_ds"
+        />
+
+    <TextView
+        android:id="@+id/velocidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Velocidad: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/tv_speed"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_speed"
+        app:layout_constraintRight_toLeftOf="@+id/tv_speed"
+        />
+
+    <TextView
+        android:id="@+id/peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Peso: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/tv_weight"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_weight"
+        app:layout_constraintRight_toLeftOf="@+id/tv_weight"
+        />
+
+    <Button
+        android:id="@+id/guadamesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="120dp"
+        android:text="captura"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ds"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

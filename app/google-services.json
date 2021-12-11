@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "68929156487",
+    "firebase_url": "https://moviles-uno-default-rtdb.firebaseio.com",
+    "project_id": "moviles-uno",
+    "storage_bucket": "moviles-uno.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68929156487:android:e44f31dfece64c2843cf22",
+        "android_client_info": {
+          "package_name": "com.example.basicnavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68929156487-g4c50cjf10niqv5it9vju2872rlgj5fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4j0trhLeidg_xJKt_aqatYmGDn-iVxMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68929156487-g4c50cjf10niqv5it9vju2872rlgj5fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68929156487:android:8b253276f4ff416b43cf22",
+        "android_client_info": {
+          "package_name": "com.example.firebasebasics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68929156487-g4c50cjf10niqv5it9vju2872rlgj5fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4j0trhLeidg_xJKt_aqatYmGDn-iVxMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68929156487-g4c50cjf10niqv5it9vju2872rlgj5fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68929156487:android:dab9a29f2c679d6743cf22",
+        "android_client_info": {
+          "package_name": "com.example.proy_final_moviles_2021"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68929156487-g4c50cjf10niqv5it9vju2872rlgj5fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4j0trhLeidg_xJKt_aqatYmGDn-iVxMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68929156487-g4c50cjf10niqv5it9vju2872rlgj5fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68929156487:android:6baa4ed65632c47d43cf22",
+        "android_client_info": {
+          "package_name": "com.example.proyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68929156487-g4c50cjf10niqv5it9vju2872rlgj5fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4j0trhLeidg_xJKt_aqatYmGDn-iVxMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68929156487-g4c50cjf10niqv5it9vju2872rlgj5fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

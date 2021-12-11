@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text=""
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toRightOf="@+id/numero"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Nombre"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/numero"
+        app:layout_constraintTop_toBottomOf="@+id/id" />
+
+    <TextView
+        android:id="@+id/tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        />
+
+    <TextView
+        android:id="@+id/hp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/vida"
+        app:layout_constraintTop_toBottomOf="@+id/tipo"
+        />
+
+    <TextView
+        android:id="@+id/attack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/ataque"
+        app:layout_constraintTop_toBottomOf="@+id/hp"
+        />
+
+    <TextView
+        android:id="@+id/special"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/aspecial"
+        app:layout_constraintTop_toBottomOf="@+id/attack"
+        />
+
+    <TextView
+        android:id="@+id/deffense"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/defensa"
+        app:layout_constraintTop_toBottomOf="@+id/special"
+        />
+
+    <TextView
+        android:id="@+id/ds"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/dspecial"
+        app:layout_constraintTop_toBottomOf="@+id/deffense"
+        />
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/velocidad"
+        app:layout_constraintTop_toBottomOf="@+id/ds"
+        />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/peso"
+        app:layout_constraintTop_toBottomOf="@+id/speed"
+        />
+
+    <TextView
+        android:id="@+id/numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/id"
+        app:layout_constraintLeft_toRightOf="@id/name"
+        app:layout_constraintRight_toLeftOf="@+id/id"
+        app:layout_constraintTop_toTopOf="@+id/id"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/vida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Hp: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/hp"
+        app:layout_constraintBottom_toBottomOf="@+id/hp"
+        app:layout_constraintRight_toLeftOf="@+id/hp"
+        />
+
+    <TextView
+        android:id="@+id/ataque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Atk: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/attack"
+        app:layout_constraintBottom_toBottomOf="@+id/attack"
+        app:layout_constraintRight_toLeftOf="@+id/attack"
+        />
+
+    <TextView
+        android:id="@+id/aspecial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Atk Especial: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/special"
+        app:layout_constraintBottom_toBottomOf="@+id/special"
+        app:layout_constraintRight_toLeftOf="@+id/special"
+        />
+
+    <TextView
+        android:id="@+id/defensa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Defensa: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/deffense"
+        app:layout_constraintBottom_toBottomOf="@+id/deffense"
+        app:layout_constraintRight_toLeftOf="@+id/deffense"
+        />
+
+    <TextView
+        android:id="@+id/dspecial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Defensa Especial: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/ds"
+        app:layout_constraintBottom_toBottomOf="@+id/ds"
+        app:layout_constraintRight_toLeftOf="@+id/ds"
+        />
+
+    <TextView
+        android:id="@+id/velocidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Velocidad: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/speed"
+        app:layout_constraintBottom_toBottomOf="@+id/speed"
+        app:layout_constraintRight_toLeftOf="@+id/speed"
+        />
+    <TextView
+        android:id="@+id/peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Peso: "
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/weight"
+        app:layout_constraintBottom_toBottomOf="@+id/weight"
+        app:layout_constraintRight_toLeftOf="@+id/weight"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
